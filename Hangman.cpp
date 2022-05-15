@@ -182,11 +182,12 @@ int main()
         tries = triesLeft(wordToGuess, guesses);
 
     } while (tries < 10);
-    if (win)
-        printMessage("YOU WON");
-    else
+    if (win){
+        printMessage("YOU WON");}
+    else{
         printMessage("GAME OVER");
         printMessage(wordToGuess);
+    }
     
     system("pause");
 
