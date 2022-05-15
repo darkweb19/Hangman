@@ -186,6 +186,7 @@ int main()
         printMessage("YOU WON");
     else
         printMessage("GAME OVER");
+        printMessage(wordToGuess);
     
     system("pause");
 
